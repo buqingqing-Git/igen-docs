@@ -8,11 +8,11 @@
     "description": "Navbar dropdown with label Docs"
   },
   "item.label.EMH Series": {
-    "message": "EMH Series",
+    "message": "EMH 系列",
     "description": "Navbar item with label EMH Series"
   },
   "item.label.EMS Series": {
-    "message": "EMS Series",
+    "message": "EMS 系列",
     "description": "Navbar item with label EMS Series"
   },
   "item.label.EMH-2": {
