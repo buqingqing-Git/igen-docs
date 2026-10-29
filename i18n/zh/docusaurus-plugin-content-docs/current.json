@@ -15,144 +15,144 @@
     "message": "安全注意事项",
     "description": "The label for category Safety Precautions in sidebar mr1D4WreSidebar"
   },
-  "sidebar.mr1D4WreSidebar.doc.MR1-D4-WRE/safety/disclaimer": {
+  "sidebar.mr1D4WreSidebar.doc.Disclaimer": {
     "message": "声明",
-    "description": "The label for doc MR1-D4-WRE/safety/disclaimer in sidebar mr1D4WreSidebar"
+    "description": "The label for doc Disclaimer in sidebar mr1D4WreSidebar"
   },
-  "sidebar.mr1D4WreSidebar.doc.MR1-D4-WRE/safety/safety-instructions": {
+  "sidebar.mr1D4WreSidebar.doc.Safety Instructions": {
     "message": "注意事项说明",
-    "description": "The label for doc MR1-D4-WRE/safety/safety-instructions in sidebar mr1D4WreSidebar"
+    "description": "The label for doc Safety Instructions in sidebar mr1D4WreSidebar"
   },
-  "sidebar.mr1D4WreSidebar.doc.MR1-D4-WRE/safety/storage-requirements": {
+  "sidebar.mr1D4WreSidebar.doc.Storage Requirements": {
     "message": "存储要求",
-    "description": "The label for doc MR1-D4-WRE/safety/storage-requirements in sidebar mr1D4WreSidebar"
+    "description": "The label for doc Storage Requirements in sidebar mr1D4WreSidebar"
   },
   "sidebar.mr1D4WreSidebar.category.Product Overview": {
     "message": "产品概述",
     "description": "The label for category Product Overview in sidebar mr1D4WreSidebar"
   },
-  "sidebar.mr1D4WreSidebar.doc.MR1-D4-WRE/overview/model-description": {
+  "sidebar.mr1D4WreSidebar.doc.Model Description": {
     "message": "型号说明",
-    "description": "The label for doc MR1-D4-WRE/overview/model-description in sidebar mr1D4WreSidebar"
+    "description": "The label for doc Model Description in sidebar mr1D4WreSidebar"
   },
-  "sidebar.mr1D4WreSidebar.doc.MR1-D4-WRE/overview/application-scenarios": {
+  "sidebar.mr1D4WreSidebar.doc.Application Scenarios": {
     "message": "应用场景",
-    "description": "The label for doc MR1-D4-WRE/overview/application-scenarios in sidebar mr1D4WreSidebar"
+    "description": "The label for doc Application Scenarios in sidebar mr1D4WreSidebar"
   },
-  "sidebar.mr1D4WreSidebar.doc.MR1-D4-WRE/overview/product-advantages": {
+  "sidebar.mr1D4WreSidebar.doc.Product Advantages": {
     "message": "产品优势",
-    "description": "The label for doc MR1-D4-WRE/overview/product-advantages in sidebar mr1D4WreSidebar"
+    "description": "The label for doc Product Advantages in sidebar mr1D4WreSidebar"
   },
-  "sidebar.mr1D4WreSidebar.doc.MR1-D4-WRE/overview/product-structure": {
+  "sidebar.mr1D4WreSidebar.doc.Product Structure": {
     "message": "产品结构",
-    "description": "The label for doc MR1-D4-WRE/overview/product-structure in sidebar mr1D4WreSidebar"
+    "description": "The label for doc Product Structure in sidebar mr1D4WreSidebar"
   },
-  "sidebar.mr1D4WreSidebar.doc.MR1-D4-WRE/overview/appearance": {
+  "sidebar.mr1D4WreSidebar.doc.Appearance": {
     "message": "外观介绍",
-    "description": "The label for doc MR1-D4-WRE/overview/appearance in sidebar mr1D4WreSidebar"
+    "description": "The label for doc Appearance in sidebar mr1D4WreSidebar"
   },
-  "sidebar.mr1D4WreSidebar.doc.MR1-D4-WRE/overview/accessories": {
+  "sidebar.mr1D4WreSidebar.doc.Accessories": {
     "message": "配件说明",
-    "description": "The label for doc MR1-D4-WRE/overview/accessories in sidebar mr1D4WreSidebar"
+    "description": "The label for doc Accessories in sidebar mr1D4WreSidebar"
   },
   "sidebar.mr1D4WreSidebar.category.Quick Start": {
     "message": "快速上手",
     "description": "The label for category Quick Start in sidebar mr1D4WreSidebar"
   },
-  "sidebar.mr1D4WreSidebar.doc.MR1-D4-WRE/quick-start/wiring": {
+  "sidebar.mr1D4WreSidebar.doc.Wiring": {
     "message": "接线方式",
-    "description": "The label for doc MR1-D4-WRE/quick-start/wiring in sidebar mr1D4WreSidebar"
+    "description": "The label for doc Wiring in sidebar mr1D4WreSidebar"
   },
-  "sidebar.mr1D4WreSidebar.doc.MR1-D4-WRE/quick-start/app-usage": {
+  "sidebar.mr1D4WreSidebar.doc.App Usage": {
     "message": "APP使用",
-    "description": "The label for doc MR1-D4-WRE/quick-start/app-usage in sidebar mr1D4WreSidebar"
+    "description": "The label for doc App Usage in sidebar mr1D4WreSidebar"
   },
   "sidebar.mr1D4WreSidebar.category.Data Platform": {
     "message": "数据平台",
     "description": "The label for category Data Platform in sidebar mr1D4WreSidebar"
   },
-  "sidebar.mr1D4WreSidebar.doc.MR1-D4-WRE/platform/energyease": {
+  "sidebar.mr1D4WreSidebar.doc.EnergyEase": {
     "message": "EnergyEase",
-    "description": "The label for doc MR1-D4-WRE/platform/energyease in sidebar mr1D4WreSidebar"
+    "description": "The label for doc EnergyEase in sidebar mr1D4WreSidebar"
   },
-  "sidebar.mr1D4WreSidebar.doc.MR1-D4-WRE/platform/unienergy": {
+  "sidebar.mr1D4WreSidebar.doc.UniEnergy": {
     "message": "小麦智电",
-    "description": "The label for doc MR1-D4-WRE/platform/unienergy in sidebar mr1D4WreSidebar"
+    "description": "The label for doc UniEnergy in sidebar mr1D4WreSidebar"
   },
-  "sidebar.mr1D4WreSidebar.doc.MR1-D4-WRE/parameter-comparison": {
+  "sidebar.mr1D4WreSidebar.doc.Parameter Comparison": {
     "message": "参数对比表",
-    "description": "The label for doc MR1-D4-WRE/parameter-comparison in sidebar mr1D4WreSidebar"
+    "description": "The label for doc Parameter Comparison in sidebar mr1D4WreSidebar"
   },
   "sidebar.mr1D5WrSidebar.category.Safety Precautions": {
     "message": "安全注意事项",
     "description": "The label for category Safety Precautions in sidebar mr1D5WrSidebar"
   },
-  "sidebar.mr1D5WrSidebar.doc.MR1-D5-WR/safety/disclaimer": {
+  "sidebar.mr1D5WrSidebar.doc.Disclaimer": {
     "message": "声明",
-    "description": "The label for doc MR1-D5-WR/safety/disclaimer in sidebar mr1D5WrSidebar"
+    "description": "The label for doc Disclaimer in sidebar mr1D5WrSidebar"
   },
-  "sidebar.mr1D5WrSidebar.doc.MR1-D5-WR/safety/safety-instructions": {
+  "sidebar.mr1D5WrSidebar.doc.Safety Instructions": {
     "message": "注意事项说明",
-    "description": "The label for doc MR1-D5-WR/safety/safety-instructions in sidebar mr1D5WrSidebar"
+    "description": "The label for doc Safety Instructions in sidebar mr1D5WrSidebar"
   },
-  "sidebar.mr1D5WrSidebar.doc.MR1-D5-WR/safety/storage-requirements": {
+  "sidebar.mr1D5WrSidebar.doc.Storage Requirements": {
     "message": "存储要求",
-    "description": "The label for doc MR1-D5-WR/safety/storage-requirements in sidebar mr1D5WrSidebar"
+    "description": "The label for doc Storage Requirements in sidebar mr1D5WrSidebar"
   },
   "sidebar.mr1D5WrSidebar.category.Product Overview": {
     "message": "产品概述",
     "description": "The label for category Product Overview in sidebar mr1D5WrSidebar"
   },
-  "sidebar.mr1D5WrSidebar.doc.MR1-D5-WR/overview/model-description": {
+  "sidebar.mr1D5WrSidebar.doc.Model Description": {
     "message": "型号说明",
-    "description": "The label for doc MR1-D5-WR/overview/model-description in sidebar mr1D5WrSidebar"
+    "description": "The label for doc Model Description in sidebar mr1D5WrSidebar"
   },
-  "sidebar.mr1D5WrSidebar.doc.MR1-D5-WR/overview/application-scenarios": {
+  "sidebar.mr1D5WrSidebar.doc.Application Scenarios": {
     "message": "应用场景",
-    "description": "The label for doc MR1-D5-WR/overview/application-scenarios in sidebar mr1D5WrSidebar"
+    "description": "The label for doc Application Scenarios in sidebar mr1D5WrSidebar"
   },
-  "sidebar.mr1D5WrSidebar.doc.MR1-D5-WR/overview/product-advantages": {
+  "sidebar.mr1D5WrSidebar.doc.Product Advantages": {
     "message": "产品优势",
-    "description": "The label for doc MR1-D5-WR/overview/product-advantages in sidebar mr1D5WrSidebar"
+    "description": "The label for doc Product Advantages in sidebar mr1D5WrSidebar"
   },
-  "sidebar.mr1D5WrSidebar.doc.MR1-D5-WR/overview/product-structure": {
+  "sidebar.mr1D5WrSidebar.doc.Product Structure": {
     "message": "产品结构",
-    "description": "The label for doc MR1-D5-WR/overview/product-structure in sidebar mr1D5WrSidebar"
+    "description": "The label for doc Product Structure in sidebar mr1D5WrSidebar"
   },
-  "sidebar.mr1D5WrSidebar.doc.MR1-D5-WR/overview/appearance": {
+  "sidebar.mr1D5WrSidebar.doc.Appearance": {
     "message": "外观介绍",
-    "description": "The label for doc MR1-D5-WR/overview/appearance in sidebar mr1D5WrSidebar"
+    "description": "The label for doc Appearance in sidebar mr1D5WrSidebar"
   },
-  "sidebar.mr1D5WrSidebar.doc.MR1-D5-WR/overview/accessories": {
+  "sidebar.mr1D5WrSidebar.doc.Accessories": {
     "message": "配件说明",
-    "description": "The label for doc MR1-D5-WR/overview/accessories in sidebar mr1D5WrSidebar"
+    "description": "The label for doc Accessories in sidebar mr1D5WrSidebar"
   },
   "sidebar.mr1D5WrSidebar.category.Quick Start": {
     "message": "快速上手",
     "description": "The label for category Quick Start in sidebar mr1D5WrSidebar"
   },
-  "sidebar.mr1D5WrSidebar.doc.MR1-D5-WR/quick-start/wiring": {
+  "sidebar.mr1D5WrSidebar.doc.Wiring": {
     "message": "接线方式",
-    "description": "The label for doc MR1-D5-WR/quick-start/wiring in sidebar mr1D5WrSidebar"
+    "description": "The label for doc Wiring in sidebar mr1D5WrSidebar"
   },
-  "sidebar.mr1D5WrSidebar.doc.MR1-D5-WR/quick-start/app-usage": {
+  "sidebar.mr1D5WrSidebar.doc.App Usage": {
     "message": "APP使用",
-    "description": "The label for doc MR1-D5-WR/quick-start/app-usage in sidebar mr1D5WrSidebar"
+    "description": "The label for doc App Usage in sidebar mr1D5WrSidebar"
   },
   "sidebar.mr1D5WrSidebar.category.Data Platform": {
     "message": "数据平台",
     "description": "The label for category Data Platform in sidebar mr1D5WrSidebar"
   },
-  "sidebar.mr1D5WrSidebar.doc.MR1-D5-WR/platform/energyease": {
+  "sidebar.mr1D5WrSidebar.doc.EnergyEase": {
     "message": "EnergyEase",
-    "description": "The label for doc MR1-D5-WR/platform/energyease in sidebar mr1D5WrSidebar"
+    "description": "The label for doc EnergyEase in sidebar mr1D5WrSidebar"
   },
-  "sidebar.mr1D5WrSidebar.doc.MR1-D5-WR/platform/unienergy": {
+  "sidebar.mr1D5WrSidebar.doc.UniEnergy": {
     "message": "小麦智电",
-    "description": "The label for doc MR1-D5-WR/platform/unienergy in sidebar mr1D5WrSidebar"
+    "description": "The label for doc UniEnergy in sidebar mr1D5WrSidebar"
   },
-  "sidebar.mr1D5WrSidebar.doc.MR1-D5-WR/parameter-comparison": {
+  "sidebar.mr1D5WrSidebar.doc.Parameter Comparison": {
     "message": "参数对比表",
-    "description": "The label for doc MR1-D5-WR/parameter-comparison in sidebar mr1D5WrSidebar"
+    "description": "The label for doc Parameter Comparison in sidebar mr1D5WrSidebar"
   }
 }
