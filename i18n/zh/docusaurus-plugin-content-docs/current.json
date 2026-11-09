@@ -154,5 +154,13 @@
   "sidebar.mr1D5WrSidebar.doc.Parameter Comparison": {
     "message": "参数对比表",
     "description": "The label for doc Parameter Comparison in sidebar mr1D5WrSidebar"
+  },
+  "sidebar.mr1D5WrSidebar.doc.Firmware Version Records": {
+    "message": "固件版本记录",
+    "description": "The label for doc Firmware Version Records in sidebar mr1D5WrSidebar"
+  },
+  "sidebar.mr1D5WrSidebar.doc.Document Revision Records": {
+    "message": "文档版本记录",
+    "description": "The label for doc Document Revision Records in sidebar mr1D5WrSidebar"
   }
 }

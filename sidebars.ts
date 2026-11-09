@@ -172,6 +172,8 @@ const sidebars: SidebarsConfig = {
       ],
     },
     { type: 'doc', id: 'MR1-D5-WR/parameter-comparison', label: 'Parameter Comparison' },
+    { type: 'doc', id: 'MR1-D5-WR/firmware-version-record', label: 'Firmware Version Records' },
+    { type: 'doc', id: 'MR1-D5-WR/document-version-record', label: 'Document Revision Records' },
   ],
 
   // ===================== API =====================
