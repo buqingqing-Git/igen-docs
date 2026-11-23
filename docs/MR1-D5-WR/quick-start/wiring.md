@@ -1,43 +1,30 @@
 ---
-title: Wiring
-description: Installation steps and wiring methods for the MR1-D5 series single-phase and three-phase meters
+title: Installation Preparation
+description: Installer requirements, safety protection and DIN-rail mounting for the D5 series meters
 ---
 
-# Wiring
+# Installation Preparation
 
-## Single-Phase Meter Installation Steps
+Applies to MR1-D5-W, MR1-D5-WR, MR3-D5-W and MR3-D5-WR.
 
-(Applicable to MR1-D5-W, MR1-D5-WR)
+## Personnel and Protection
 
-### Installation Tools
+Installation must be carried out by experienced electricians or professionals. Before starting, read [Safety Instructions](../safety/safety-instructions.md), make sure the wiring requirements are understood, and wear dedicated protective equipment that meets the relevant safety standards.
 
-This product must be installed by experienced electricians or professionals wearing dedicated protective equipment that meets relevant safety standards. Before installation, read this manual carefully in full and make sure you fully understand all safety precautions and wiring requirements.
+:::warning Warning
+All installation and wiring work must be carried out with the power completely disconnected and verified de-energized. Installing or wiring while energized is strictly prohibited.
+:::
 
 ![Safety protection and installation](img/safety-equipment.png)
 
-:::danger Warning
-All wiring work must be carried out with the power completely disconnected and verified de-energized. Installation or wiring while energized is strictly prohibited.
-:::
+## Mechanical Installation
 
-### Mechanical Installation
-
-- Based on the meter dimensions, plan the installation position on the 35mm standard DIN rail in the distribution box, ensuring sufficient space for wiring and maintenance.
-- Align the slot on the back of the meter with the top edge of the rail, and press down until the bottom latch securely locks onto the rail. To ensure system safety, the distribution box should be equipped with a suitable surge protective device (SPD).
+1. Based on the [meter dimensions](../overview/product-structure.md), choose the mounting position on the 35 mm standard DIN rail in the distribution box, leaving room for wiring and maintenance. The distribution box should be equipped with a suitable surge protective device (SPD).
+2. Align the slot on the back of the meter with the top edge of the rail, then press down until the bottom latch is securely locked onto the rail.
 
 ![DIN rail installation](img/din-rail-install.png)
 
-### Electrical Wiring
+## Choosing a Wiring Section
 
-1. Use wire strippers to strip 6~8mm of insulation from the wire end, then crimp with a terminal matching the wire gauge.
-
-![AC power input wiring](img/ac-wiring-strip.png)
-
-2. Connect the neutral wire (N) and the live wire (L) to the meter terminals according to the labels.
-
-![Single-phase wiring diagram](img/wiring-single-diagram.png)
-
-3. Pass the main live wire (L) through the CT aperture. Ensure the incoming power direction matches the P1 side marked on the CT. Connect the terminals of the current transformer (CT) to the CT terminals on the meter.
-
-![Single-phase meter wiring](img/wiring-single.png)
-
-4. Only restore power after all wiring is complete and has been double-checked. After power-on, observe whether the power indicator on the meter stays on to confirm that the meter is powered.
+- MR1-D5-W, MR1-D5-WR: [Single-Phase Meter Installation and Wiring](single-phase-wiring.md).
+- MR3-D5-W, MR3-D5-WR: [Three-Phase Meter Installation and Wiring](three-phase-wiring.md).

@@ -162,12 +162,37 @@ article .markdown code {
 
 article .markdown .alert {
     border: 2px solid var(--ifm-alert-border-color);
+    border-radius: 8px;
 }
 
 article .markdown img {
     border-radius: 10px;
     display: inline-block;
     margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* 表格内的组图（外观六视图、App 截图）限高，避免撑破版式 */
+/* 表格表头不换行，避免多列表格把列名挤成两行（中文版式，列名较短） */
+article .markdown table th {
+    white-space: nowrap;
+}
+
+/* 英文列名较长（型号代码等），允许表头换行，避免表格横向溢出 */
+html[lang="en"] article .markdown table th {
+    white-space: normal;
+}
+
+article .markdown table img {
+    max-height: 320px;
+    width: auto;
+}
+
+/* 正文中独立展示的示意图、尺寸图限制最大宽度 */
+article .markdown > p > img {
+    max-width: 620px;
+    height: auto;
 }
 
 article .markdown video {

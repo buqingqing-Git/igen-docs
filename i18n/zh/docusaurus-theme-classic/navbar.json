@@ -31,13 +31,9 @@
     "message": "智能电表",
     "description": "Navbar dropdown with label Smart Meter"
   },
-  "item.label.MR1-D4-WRE": {
-    "message": "MR1-D4-WRE",
-    "description": "Navbar item with label MR1-D4-WRE"
-  },
-  "item.label.MR1-D5-WR": {
-    "message": "MR1-D5-WR",
-    "description": "Navbar item with label MR1-D5-WR"
+  "item.label.D5 Series": {
+    "message": "D5 系列",
+    "description": "Navbar item with label D5 Series"
   },
   "item.label.API": {
     "message": "API",

@@ -83,6 +83,10 @@
     "message": "参数对比表",
     "description": "The label for doc Parameter Comparison in sidebar mr1D4WreSidebar"
   },
+  "sidebar.mr1D5WrSidebar.doc.Introduction": {
+    "message": "前言",
+    "description": "The label for doc Introduction in sidebar mr1D5WrSidebar"
+  },
   "sidebar.mr1D5WrSidebar.category.Safety Precautions": {
     "message": "安全注意事项",
     "description": "The label for category Safety Precautions in sidebar mr1D5WrSidebar"
@@ -131,9 +135,17 @@
     "message": "快速上手",
     "description": "The label for category Quick Start in sidebar mr1D5WrSidebar"
   },
-  "sidebar.mr1D5WrSidebar.doc.Wiring": {
-    "message": "接线方式",
-    "description": "The label for doc Wiring in sidebar mr1D5WrSidebar"
+  "sidebar.mr1D5WrSidebar.doc.Installation Preparation": {
+    "message": "安装前准备",
+    "description": "The label for doc Installation Preparation in sidebar mr1D5WrSidebar"
+  },
+  "sidebar.mr1D5WrSidebar.doc.Single-Phase Wiring": {
+    "message": "单相电表安装接线",
+    "description": "The label for doc Single-Phase Wiring in sidebar mr1D5WrSidebar"
+  },
+  "sidebar.mr1D5WrSidebar.doc.Three-Phase Wiring": {
+    "message": "三相电表安装接线",
+    "description": "The label for doc Three-Phase Wiring in sidebar mr1D5WrSidebar"
   },
   "sidebar.mr1D5WrSidebar.doc.App Usage": {
     "message": "APP使用",
@@ -147,17 +159,21 @@
     "message": "EnergyEase",
     "description": "The label for doc EnergyEase in sidebar mr1D5WrSidebar"
   },
-  "sidebar.mr1D5WrSidebar.doc.UniEnergy": {
+  "sidebar.mr1D5WrSidebar.doc.SOLARMAN Smart": {
     "message": "小麦智电",
-    "description": "The label for doc UniEnergy in sidebar mr1D5WrSidebar"
+    "description": "The label for doc SOLARMAN Smart in sidebar mr1D5WrSidebar"
   },
   "sidebar.mr1D5WrSidebar.doc.Parameter Comparison": {
     "message": "参数对比表",
     "description": "The label for doc Parameter Comparison in sidebar mr1D5WrSidebar"
   },
-  "sidebar.mr1D5WrSidebar.doc.Firmware Version Records": {
-    "message": "固件版本记录",
-    "description": "The label for doc Firmware Version Records in sidebar mr1D5WrSidebar"
+  "sidebar.mr1D5WrSidebar.doc.Maintenance and Troubleshooting": {
+    "message": "维护与故障处理",
+    "description": "The label for doc Maintenance and Troubleshooting in sidebar mr1D5WrSidebar"
+  },
+  "sidebar.mr1D5WrSidebar.doc.Contact Information": {
+    "message": "联系信息",
+    "description": "The label for doc Contact Information in sidebar mr1D5WrSidebar"
   },
   "sidebar.mr1D5WrSidebar.doc.Document Revision Records": {
     "message": "文档版本记录",

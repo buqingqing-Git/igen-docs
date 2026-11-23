@@ -141,15 +141,16 @@ const config: Config = {
           label: "Smart Meter",
           position: "left",
           items: [
-            {
-              type: "docSidebar",
-              sidebarId: "mr1D4WreSidebar",
-              label: "MR1-D4-WRE",
-            },
+            // MR1-D4-WRE：暂时隐藏，需要恢复时取消注释
+            // {
+            //   type: "docSidebar",
+            //   sidebarId: "mr1D4WreSidebar",
+            //   label: "MR1-D4-WRE",
+            // },
             {
               type: "docSidebar",
               sidebarId: "mr1D5WrSidebar",
-              label: "MR1-D5-WR",
+              label: "D5 Series",
             },
           ],
         },

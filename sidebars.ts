@@ -130,6 +130,7 @@ const sidebars: SidebarsConfig = {
 
   // ===================== MR1-D5-WR =====================
   mr1D5WrSidebar: [
+    { type: 'doc', id: 'MR1-D5-WR/introduction', label: 'Introduction' },
     {
       type: 'category',
       label: 'Safety Precautions',
@@ -158,7 +159,9 @@ const sidebars: SidebarsConfig = {
       label: 'Quick Start',
       collapsed: false,
       items: [
-        { type: 'doc', id: 'MR1-D5-WR/quick-start/wiring', label: 'Wiring' },
+        { type: 'doc', id: 'MR1-D5-WR/quick-start/wiring', label: 'Installation Preparation' },
+        { type: 'doc', id: 'MR1-D5-WR/quick-start/single-phase-wiring', label: 'Single-Phase Wiring' },
+        { type: 'doc', id: 'MR1-D5-WR/quick-start/three-phase-wiring', label: 'Three-Phase Wiring' },
         { type: 'doc', id: 'MR1-D5-WR/quick-start/app-usage', label: 'App Usage' },
       ],
     },
@@ -167,13 +170,14 @@ const sidebars: SidebarsConfig = {
       label: 'Data Platform',
       collapsed: false,
       items: [
-        { type: 'doc', id: 'MR1-D5-WR/platform/energyease', label: 'EnergyEase' },
-        { type: 'doc', id: 'MR1-D5-WR/platform/unienergy', label: 'UniEnergy' },
+        { type: 'doc', id: 'MR1-D5-WR/platform/energyease', label: 'Energy Ease' },
+        { type: 'doc', id: 'MR1-D5-WR/platform/unienergy', label: 'SOLARMAN Smart' },
       ],
     },
     { type: 'doc', id: 'MR1-D5-WR/parameter-comparison', label: 'Parameter Comparison' },
-    { type: 'doc', id: 'MR1-D5-WR/firmware-version-record', label: 'Firmware Version Records' },
+    { type: 'doc', id: 'MR1-D5-WR/maintenance', label: 'Maintenance and Troubleshooting' },
     { type: 'doc', id: 'MR1-D5-WR/document-version-record', label: 'Document Revision Records' },
+    { type: 'doc', id: 'MR1-D5-WR/contact', label: 'Contact Information' },
   ],
 
   // ===================== API =====================

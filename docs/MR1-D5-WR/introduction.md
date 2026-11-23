@@ -1,14 +1,20 @@
 ---
-title: Preface
-description: Overview, audience and revision history of the Multi-function Energy Meter MR1-D5-WR series user manual
+title: Introduction
+description: Purpose, audience and scope of the D5 series meter user manual
 ---
 
-# Preface
+# Introduction
 
 ## Overview
 
-This manual is intended to introduce the product functions, installation and commissioning, troubleshooting, data platform, and technical specifications of the Multi-function Energy Meter. Please read this manual carefully before using the device, and keep it in a safe place that is easy for maintenance personnel to find.
+This manual describes the functions, installation and commissioning, data platform, technical specifications, maintenance and troubleshooting of the D5 series multi-function energy meters. Read this manual carefully before using the device, and keep it where maintenance personnel can easily find it.
 
-As the device is iteratively upgraded or for other reasons, the content of this manual may be updated from time to time. Users should refer to the actual product purchased, and can obtain the latest version of the manual through official or sales channels. Unless otherwise agreed, this manual serves as a usage guide only; all statements, information and suggestions in this manual do not constitute any express or implied warranty. Without the written permission of the company, no organization or individual may extract or copy part or all of the content of this manual, or distribute it in any form.
+This manual applies to the **MR1-D5-W, MR1-D5-WR, MR3-D5-W and MR3-D5-WR** models. For model naming and differences, see [Model Description](overview/model-description.md).
 
-The images in this manual are for reference only; the actual product shall prevail to ensure accurate installation and operation.
+:::info Information
+The manual may be updated due to product iterations or other reasons. Please refer to the actual product received, and obtain the latest documentation through official or sales channels. Images in this manual are for reference only. Unless otherwise agreed, this manual is for guidance only, and the statements, information and recommendations in it do not constitute any express or implied warranty. For usage and copyright terms, see [Disclaimer](safety/disclaimer.md).
+:::
+
+## Intended Audience
+
+This manual is intended for professional technicians responsible for the installation, operation and maintenance of the D5 series meters, as well as users of the devices. Electrical installation must be performed by professionals who meet the requirements in [Safety Instructions](safety/safety-instructions.md).

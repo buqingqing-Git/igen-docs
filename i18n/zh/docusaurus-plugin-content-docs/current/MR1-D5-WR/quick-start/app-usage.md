@@ -1,62 +1,66 @@
 ---
-title: APP 使用
-description: 通过 Energy Ease 与小麦智电 APP 完成电表的添加与配网
+title: App 添加设备与配网
+description: 使用 Energy Ease 或小麦智电添加、配网和查看 D5 系列电表
 ---
 
-# APP 使用
+# App 添加设备与配网
 
-请扫描下方二维码下载应用程序，并完成注册和登录。目前支持 **Energy Ease APP** 和 **小麦智电 APP**。
+扫描二维码下载 Energy Ease 或小麦智电，完成注册和登录。使用 Wi-Fi 配网时，请确认安装位置有稳定的 2.4 GHz Wi-Fi 覆盖，并准备好网络名称和密码。使用 LoRa 时，请选择支持 LoRa 的型号，并使用 Energy Ease。
 
-![Energy Ease 下载](img/qr-energyease.png)   ![小麦智电下载](img/qr-unienergy.png)
+| Energy Ease 下载 | 小麦智电（SOLARMAN Smart）下载 |
+| --- | --- |
+| <img src={require('./img/qr-energyease.png').default} alt="Energy Ease 下载二维码" style={{width: '150px', maxHeight: 'none'}} /> | <img src={require('./img/qr-unienergy.png').default} alt="小麦智电下载二维码" style={{width: '150px', maxHeight: 'none'}} /> |
 
-请确保电表使用区域已覆盖稳定的 WiFi 网络，并知晓 WiFi 名称和密码。
+## Energy Ease 配网
 
-## （一）Energy Ease
+:::info 信息
+界面示例版本：**V2.2.10**。截图中的产品或设备名称仅作界面示例，添加时请选择与实际 D5 电表序列号（SN）一致的设备。
+:::
 
-以下为 Energy Ease V2.2.10 软件版本的界面图为例进行说明，使用 LoRa 功能请使用 Energy Ease APP。
+1. 打开 Energy Ease，注册并登录。
+2. 在家庭页面点击 **+ → 添加设备**。开启定位后，可在 **发现设备** 中选择与 SN 对应的 D5 电表；也可进入 **手动添加**，选择指定品牌，扫描产品二维码或手动输入 SN。
 
-1. 请在智能手机上打开“Energy Ease”应用程序，完成注册和登录。
-2. 在家庭页面点击 “+” 按钮，选择“添加设备”。开启定位，通过“发现设备”点击对应 SN 号的 P1 读表器，或“手动添加”，选择指定品牌，扫描产品本身的二维码或手动输入设备 SN 号，完成添加设备。
+   | 家庭页面 | 添加设备 | 扫码引导 |
+   | --- | --- | --- |
+   | <img src={require('./img/ee-home.png').default} alt="Energy Ease 家庭页面" style={{width: '180px', maxHeight: 'none'}} /> | <img src={require('./img/ee-add-device.png').default} alt="Energy Ease 添加设备" style={{width: '180px', maxHeight: 'none'}} /> | <img src={require('./img/ee-scan-guide.png').default} alt="Energy Ease 扫码引导" style={{width: '180px', maxHeight: 'none'}} /> |
 
-![添加设备](img/app-ee-add-device.png)
+3. 进入 **接入方式** 页面，选择合适的通信方式：
+   - **Wi-Fi 接入**：适用于有稳定 Wi-Fi 覆盖的环境。选择网络、输入密码并确认。
+   - **LoRa 无线接入**：适用于远距离或没有 Wi-Fi 覆盖的场景，需配合 LoRa 网关或微储设备。选择要绑定的设备，建立连接。
 
-3. 进入“接入方式”界面，根据实际使用场景选择通信方式，完成后续配置流程。
-   - WiFi 接入：适用于有稳定 WiFi 网络的环境。
-   - LoRa 无线接入：适用于远距离或无 WiFi 覆盖场景（需配合 LoRa 网关或微储设备）。
+   | 接入方式 | 选择 Wi-Fi | LoRa 无线接入 |
+   | --- | --- | --- |
+   | <img src={require('./img/ee-access-mode.png').default} alt="Energy Ease 接入方式" style={{width: '180px', maxHeight: 'none'}} /> | <img src={require('./img/ee-wifi.png').default} alt="Energy Ease 选择 Wi-Fi" style={{width: '180px', maxHeight: 'none'}} /> | <img src={require('./img/ee-lora.png').default} alt="Energy Ease LoRa 绑定界面示例" style={{width: '180px', maxHeight: 'none'}} /> |
 
-![接入方式](img/app-ee-access-mode.png)
+   首次选择的接入方式有误时，可在设备页面的设置中切换。
 
-> 提醒：初次配置错误，可以在设备页面的设置中进行切换。
+4. 连接成功后点击确认，进入设备页面，选择对应设备查看数据。
 
-4. 选择 WiFi 接入时，连接 2.4G WiFi，输入 WiFi 名称和密码，点击确认。
+   | 设备列表 | 电表数据 |
+   | --- | --- |
+   | <img src={require('./img/ee-device-list.png').default} alt="Energy Ease 设备列表" style={{width: '180px', maxHeight: 'none'}} /> | <img src={require('./img/ee-meter-data.png').default} alt="Energy Ease 电表数据" style={{width: '180px', maxHeight: 'none'}} /> |
 
-![选择 Wi-Fi](img/app-ee-wifi.png)
+更多操作见 [Energy Ease 数据平台](../platform/energyease.md)。
 
-5. 选择 LoRa 无线接入时，选择要绑定的设备，建立远距离数据连接。
+## 小麦智电配网
 
-![LoRa 无线接入](img/app-ee-lora-bind.png)
+:::info 信息
+界面示例版本：**V2.3.8**。
+:::
 
-6. 设备成功连接网络后，点击确认跳转到设备页面，选择对应的设备查看相关的数据。
+1. 打开小麦智电，注册并登录。
+2. 在家庭页面点击 **+ → 添加设备**，选择 **扫一扫**。扫描产品二维码或手动输入设备 SN，完成添加。
+3. 进入网络配置，输入 Wi-Fi 名称和密码，点击确认，等待配置成功提示。
 
-![设备列表](img/app-ee-device-list.png)
+   | 家庭页面 | 添加设备 | 网络配置 |
+   | --- | --- | --- |
+   | <img src={require('./img/uni-home.png').default} alt="小麦智电家庭页面" style={{width: '180px', maxHeight: 'none'}} /> | <img src={require('./img/uni-add-device.png').default} alt="小麦智电添加设备" style={{width: '180px', maxHeight: 'none'}} /> | <img src={require('./img/uni-network.png').default} alt="小麦智电网络配置" style={{width: '180px', maxHeight: 'none'}} /> |
 
-![电表数据](img/app-meter-data.png)
+4. 连接成功后点击确认，在设备页面查看数据。
+5. 打开 **设备详情**，按实际安装情况核对设备配置。配置页示例包括安装情况、安装位置、互感器方向及电流比。不清楚实际参数时，请向安装人员确认。
 
-![家庭页面](img/app-ee-home.png)
+<img src={require('./img/uni-device-config.png').default} alt="小麦智电设备配置界面示例" style={{width: '300px', maxHeight: 'none'}} />
 
-## （二）小麦智电
+D5 系列各型号的 CT 规格见[参数对比](../parameter-comparison.md)。
 
-以下为小麦智电 V2.3.8 软件版本的界面图为例进行说明，若使用小麦智电 APP 可参考。
-
-1. 请在智能手机上打开“小麦智电”应用程序，完成注册和登录。
-2. 在家庭页面点击 “+” 按钮，选择“添加设备”。点击“扫一扫”，扫描产品本身的二维码或手动输入设备 SN 号，完成添加设备。
-
-![首页](img/app-uni-home.png)
-
-![输入采集器序列号](img/app-uni-collector.png)
-
-3. 请操作网络配置，输入 WiFi 名称和密码，点击确认，提示配置成功。
-
-![网络配置](img/app-uni-network.png)
-
-4. 设备成功连接网络后，点击确认跳转到设备页面，查看相关的数据。
+更多操作见[小麦智电数据平台](../platform/unienergy.md)。

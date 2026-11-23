@@ -1,12 +1,12 @@
 ---
 title: Energy Ease
-description: 面向微储储能与 HEMS 家庭用户的 Energy Ease 数据平台
+description: 面向微储储能与 HEMS 家庭用户的 Energy Ease 平台入口
 ---
 
 # Energy Ease
 
-如果您是微储储能或 HEMS 的家庭用户，建议使用 **Energy Ease**。
+微型储能或家庭能源管理系统（HEMS）的家庭用户可使用 Energy Ease。
 
-手机端 APP 详细操作请点击超链接[《Energy Ease APP 用户手册》](https://docs.energyease.life/)或扫描下方二维码查看。
+手机端的详细操作请查看 [Energy Ease App 用户手册](https://docs.energyease.life/zh/docs/energyease/introduction/)，也可扫描下方二维码。
 
-![Energy Ease APP 用户手册](img/qr-energyease-app.png)
+<img src={require('./img/qr-energyease-app.png').default} alt="Energy Ease App 用户手册二维码" style={{width: '150px', maxHeight: 'none'}} />

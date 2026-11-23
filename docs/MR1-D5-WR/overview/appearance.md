@@ -1,55 +1,69 @@
 ---
-title: Appearance
-description: Appearance, interface definition, indicator and button descriptions of the MR1-D5 series meters
+title: Appearance, Interfaces and Indicators
+description: Six-view appearance, terminals, indicators and RESET button of the four D5 series models
 ---
 
-# Appearance
+# Appearance, Interfaces and Indicators
 
-## MR1-D5-W, MR1-D5-WR Appearance and Interface Definition
+## MR1-D5-W Appearance
 
-<div style={{display:'flex', gap:'40px', alignItems:'flex-start', flexWrap:'wrap', margin:'12px 0'}}>
-  <img src={require('./img/mr1-appearance.png').default} width="155" alt="MR1-D5-W appearance" />
-  <img src={require('./img/mr1-appearance-w.png').default} width="150" alt="MR1-D5-WR appearance" />
-</div>
-
-| Interface | Name | Description |
+| Left view | Front view | Right view |
 | --- | --- | --- |
-| ![Neutral terminal](img/interface-mr1-terminal.png) | N | Neutral terminal, meter power input |
-| ![Live terminal](img/interface-mr1-terminal.png) | L | Live terminal, meter power input |
-| ![CT port](img/interface-mr1-ct.png) | CT | CT port, CT current sampling port |
+| ![MR1-D5-W left view](img/mr1-w-left.png) | ![MR1-D5-W front view](img/mr1-w-front.png) | ![MR1-D5-W right view](img/mr1-w-right.png) |
 
-## MR3-D5-W, MR3-D5-WR Appearance and Interface Definition
-
-<div style={{display:'flex', gap:'40px', alignItems:'flex-start', flexWrap:'wrap', margin:'12px 0'}}>
-  <img src={require('./img/mr3-appearance.png').default} width="135" alt="MR3-D5-W appearance" />
-  <img src={require('./img/mr3-appearance-w.png').default} width="170" alt="MR3-D5-WR appearance" />
-</div>
-
-| Interface | Name | Description |
+| Top view | Back view | Bottom view |
 | --- | --- | --- |
-| ![Neutral terminal](img/interface-mr3-terminal.png) | N | Neutral terminal, meter power input |
-| ![Phase A live terminal](img/interface-mr3-terminal.png) | L1 | Phase A live terminal, meter power input |
-| ![Phase B live terminal](img/interface-mr3-terminal.png) | L2 | Phase B live terminal, meter power input |
-| ![Phase C live terminal](img/interface-mr3-terminal.png) | L3 | Phase C live terminal, meter power input |
-| ![CT port](img/interface-mr3-ct.png) | CT | CT port, CT current sampling port |
+| ![MR1-D5-W top view](img/mr1-w-top.png) | ![MR1-D5-W back view](img/mr1-w-back.png) | ![MR1-D5-W bottom view](img/mr1-w-bottom.png) |
 
-## MR1-D5-WR, MR3-D5-WR Indicator Descriptions
+## MR1-D5-WR Appearance
 
-| Indicator | Meaning | Status Description |
+| Left view | Front view | Right view |
 | --- | --- | --- |
-| ![Power indicator](img/indicator-power.png) | Power (red) | Steady on: power indicator, the meter is powered normally.<br/>Off: the meter is not powered or is abnormal. |
-| ![Network indicator](img/indicator-wifi.png) | Network (WiFi) (green) | Steady on: the device is connected to the cloud platform.<br/>Blinking at 1s intervals: the device is connected to the router or has obtained an IP.<br/>Fast blinking at 100ms intervals: the device is upgrading.<br/>Off: the device is not connected to the router or has not obtained an IP. |
-| ![LoRa indicator](img/indicator-rf.png) | LoRa (green) | Steady on: LoRa connection established.<br/>Off: LoRa not connected. |
+| ![MR1-D5-WR left view](img/mr1-wr-left.png) | ![MR1-D5-WR front view](img/mr1-wr-front.png) | ![MR1-D5-WR right view](img/mr1-wr-right.png) |
 
-## MR1-D5-W, MR3-D5-W Indicator Descriptions
-
-| Indicator | Meaning | Status Description |
+| Top view | Back view | Bottom view |
 | --- | --- | --- |
-| ![Power indicator](img/indicator-power.png) | Power (red) | Steady on: power indicator, the meter is powered normally.<br/>Off: the meter is not powered or is abnormal. |
-| ![Network indicator](img/indicator-wifi.png) | Network (WiFi) (green) | Steady on: the device is connected to the cloud platform.<br/>Blinking at 1s intervals: the device is connected to the router or has obtained an IP.<br/>Fast blinking at 100ms intervals: the device is upgrading.<br/>Off: the device is not connected to the router or has not obtained an IP. |
+| ![MR1-D5-WR top view](img/mr1-wr-top.png) | ![MR1-D5-WR back view](img/mr1-wr-back.png) | ![MR1-D5-WR bottom view](img/mr1-wr-bottom.png) |
 
-## Button Description
+## MR3-D5-W Appearance
 
-| Button | Meaning | Function Description |
+| Left view | Front view | Right view |
 | --- | --- | --- |
-| ![RESET button](img/reset-button.png) | RESET | Long press for 10 seconds to restore factory settings.<br/>All indicators stay on for 2s and then return to normal status. |
+| ![MR3-D5-W left view](img/mr3-w-left.png) | ![MR3-D5-W front view](img/mr3-w-front.png) | ![MR3-D5-W right view](img/mr3-w-right.png) |
+
+| Top view | Back view | Bottom view |
+| --- | --- | --- |
+| ![MR3-D5-W top view](img/mr3-top.png) | ![MR3-D5-W back view](img/mr3-back.png) | ![MR3-D5-W bottom view](img/mr3-bottom.png) |
+
+## MR3-D5-WR Appearance
+
+| Left view | Front view | Right view |
+| --- | --- | --- |
+| ![MR3-D5-WR left view](img/mr3-wr-left.png) | ![MR3-D5-WR front view](img/mr3-wr-front.png) | ![MR3-D5-WR right view](img/mr3-wr-right.png) |
+
+| Top view | Back view | Bottom view |
+| --- | --- | --- |
+| ![MR3-D5-WR top view](img/mr3-top.png) | ![MR3-D5-WR back view](img/mr3-back.png) | ![MR3-D5-WR bottom view](img/mr3-bottom.png) |
+
+## Interface Definition
+
+| Marking | Description | Models |
+| --- | --- | --- |
+| N | Neutral input terminal. | Single-phase and three-phase models |
+| L | Single-phase live input terminal. | MR1-D5-W, MR1-D5-WR |
+| L1, L2, L3 | Three-phase live input terminals. | MR3-D5-W, MR3-D5-WR |
+| CT | Current transformer interface. | Single-phase and three-phase models |
+
+## Indicators
+
+| Marking | Indicator | Models | Status |
+| --- | --- | --- | --- |
+| ![Power marking](img/indicator-power.png) | Power (red) | All models | Steady on: power supply normal.<br/>Off: no power supply or abnormal supply. |
+| ![Network marking](img/indicator-wifi.png) | Network Wi-Fi (green) | All models | Steady on: connected to the cloud platform.<br/>Blinks every 1 s: router connected or IP address obtained.<br/>Blinks every 100 ms: device is upgrading.<br/>Off: router not connected or no IP address obtained. |
+| ![RF marking](img/indicator-rf.png) | LoRa (green) | MR1-D5-WR, MR3-D5-WR | Steady on: LoRa connected.<br/>Off: LoRa not connected or not enabled. |
+
+## RESET Button
+
+| Marking | Operation | Status |
+| --- | --- | --- |
+| ![RESET button](img/reset-button.png) | Long press for 10 s to restore factory settings. | All indicators stay on for 2 s, then return to normal. |
