@@ -9,6 +9,6 @@ The D5 series uses split-core current transformers (CT) with an accuracy of **cl
 
 | Meter | CT specification |
 | --- | --- |
-| Single-phase meter | 100 A / 50 mA, two 100 A form factors shipped at random |
+| Single-phase meter | 100 A / 50 mA |
 | Three-phase meter | 100 A / 50 mA |
 | Three-phase meter | 400 A / 50 mA |
